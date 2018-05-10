@@ -1,0 +1,21 @@
+### Scala ###
+*.class
+*.log
+
+# Simple Build Tool
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.cache/
+.history/
+.lib/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
