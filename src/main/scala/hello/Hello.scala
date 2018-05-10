@@ -1,5 +1,9 @@
 package hello
 
 object Hello extends App {
-  print("Hello, World!")
+
+  val hiFromScala = () => "Hi from Scala\n"
+
+  print(hiFromScala())
+
 }
